@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<script type="text/javascript" src="lib/angular.min.js"></script>
+	<script type="text/javascript" src="lib/angular-route.min.js"></script>
+	<title>angular</title>
+</head>
+<body ng-app="demo">
+	<div>
+		<head-tab>
+			<a href="#home">home</a><br />
+			<a href="#articles">articles</a><br />
+			<a href="#about">about</a>
+		</head-tab>
+		<div ng-view></div>
+	</div>
+	<script type="text/javascript" src="js/resolve.js"></script>
+</body>
+</html>
